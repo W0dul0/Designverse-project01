@@ -7,7 +7,6 @@ function App() {
     <>
     <Headings/>
     <h1 id ="test">testing </h1>
-
     </>
   )
 }
