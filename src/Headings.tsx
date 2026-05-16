@@ -20,6 +20,6 @@ export function Headings(){
 
 export function TitleIcon(){
     return(
-        <h1> Save Bread</h1>
+        <h1 id= "TitleIcon"> Save Bread</h1>
     )
 }
