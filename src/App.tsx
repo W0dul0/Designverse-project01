@@ -5,8 +5,10 @@ function App() {
 
   return (
     <>
+    <div id="WebHeadings">
     <TitleIcon/>
     <Headings/>
+    </div>
     </>
   )
 }
