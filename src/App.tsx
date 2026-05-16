@@ -1,10 +1,11 @@
+import {Headings} from '.Headings.tsx'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <h1>Cleared Page </h1>
+    <Headings/>
     </>
   )
 }
