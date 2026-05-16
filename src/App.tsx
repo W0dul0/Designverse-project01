@@ -6,6 +6,7 @@ function App() {
   return (
     <>
     <h1>Cleared Page </h1>
+    <p> Some stuff</p>
     </>
   )
 }
