@@ -6,7 +6,7 @@
 }
 
 .Headings {
-  right:600px;
+  left:-500px;
 }
 
 .Heading_style {
@@ -14,7 +14,7 @@
 }
 
 #TitleIcon {
-  right:500px;
+  left:-300px;
   font-size:50px;
   position:absolute;
   
