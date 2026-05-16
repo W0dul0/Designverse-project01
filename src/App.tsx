@@ -1,4 +1,4 @@
-import { AboutUs } from './AboutMe.tsx'
+import { AboutUs } from './AboutUs.tsx'
 import { Headings, TitleIcon } from './Headings.tsx'
 import './App.css'
 

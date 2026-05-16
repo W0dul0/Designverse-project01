@@ -1,4 +1,4 @@
-export function AboutMe(){
+export function AboutUs(){
 
     return(
         <>
