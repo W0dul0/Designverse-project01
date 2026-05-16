@@ -7,7 +7,7 @@ function App() {
     <>
     <div id="WebHeadings">
     <TitleIcon/>
-    <Headings/>
+    <Headings id="HeadingIcons"/>
     </div>
     </>
   )
