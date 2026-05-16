@@ -1,5 +1,7 @@
 export function AboutMe(){
+
     return(
+        <>
         <h1>
         About Us
         </h1>
@@ -10,5 +12,6 @@ export function AboutMe(){
         the bread gets thrown into trash. 
         The goal is to preserve food and lower food waste.
         </p>
+        </>
     )
 }
