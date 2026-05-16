@@ -14,19 +14,22 @@
 }
 
 .Heading_style {
-  margin:15px;
+  margin: 30px;
+  font-size: 20px;
 }
 
 #HeadingLinks {
-  position:absolute;
-  left:300px;
-  width:500px;
+  position: absolute;
+  width: 800px;
+  top: -30px;
+  left: 100px;
 }
 
 #TitleIcon {
-  left:-200px;
-  font-size:50px;
-  position:absolute;
-  
+  left: -245px;
+  font-size: 50px;
+  position: absolute;
+  width: 300px;
+  top: -45px;
 }
 
