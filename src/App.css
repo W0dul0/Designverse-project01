@@ -7,7 +7,7 @@
 
 
 #WebHeadings{
-  top:-200px;
+  bottom:500px;
 }
 
 .Heading_style {
@@ -19,7 +19,7 @@ Headings{
 }
 
 #TitleIcon {
-  left:-25px;
+  left:-15px;
   font-size:50px;
   position:absolute;
   
