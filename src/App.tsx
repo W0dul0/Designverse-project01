@@ -1,4 +1,4 @@
-import {Headings} from './Headings.tsx'
+import { Headings } from './Headings.tsx'
 import './App.css'
 
 function App() {
