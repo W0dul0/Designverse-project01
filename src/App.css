@@ -6,14 +6,15 @@
 }
 
 .Headings {
-  
+  right:600px;
 }
 
 .Heading_style {
-  margins:30px;
+  margin:30px;
 }
 
 #TitleIcon {
+  right:500px;
   font-size:50px;
   position:absolute;
   
