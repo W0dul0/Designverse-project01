@@ -17,3 +17,9 @@ export function Headings(){
      </>   
     )
 }
+
+export function TitleIcon(){
+    return(
+        <h1> </h1>
+    )
+}
