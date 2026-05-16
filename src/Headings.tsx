@@ -2,18 +2,18 @@ export function Headings(){
     
     return(
      <>
-     <h1>
+     <button className = "Heading_style">
         Shop
-     </h1>
-     <h1>
+     </button>
+     <button className = "Heading_style">
         Contact Us
-     </h1>
-    <h1>
+     </button>
+    <button className = "Heading_style">
         About Us
-    </h1>
-    <h1>
+    </button>
+    <button className = "Heading_style">
         Enterprise
-    </h1>
+    </button>
      </>   
     )
 }
