@@ -7,7 +7,9 @@ function App() {
     <>
     <div id="WebHeadings">
     <TitleIcon/>
+    <div id="HeadingLinks">
     <Headings/>
+    </div>
     </div>
     </>
   )
