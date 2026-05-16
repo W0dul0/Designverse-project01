@@ -6,7 +6,6 @@ function App() {
 
   return (
     <>
-    //Website Headings
     <div id="WebHeadings">
     <TitleIcon/>
     <div id="HeadingLinks">
