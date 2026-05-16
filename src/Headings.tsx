@@ -5,15 +5,15 @@ export function Headings(){
      <h1>
         Shop
      </h1>
-     <h2>
+     <h1>
         Contact Us
-     </h2>
-    <h3>
+     </h1>
+    <h1>
         About Us
-    </h3>
-    <h4>
+    </h1>
+    <h1>
         Enterprise
-    </h4>
+    </h1>
      </>   
     )
 }
