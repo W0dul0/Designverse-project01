@@ -1,8 +1,7 @@
 export function AboutMe(){
-    
     return(
         <h1>
-            About Us
+        About Us
         </h1>
         <p>
         Save Bread is a web application which allows bakeries 
