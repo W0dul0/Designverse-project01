@@ -9,10 +9,10 @@ export function Headings(){
         Contact Us
      </button>
     <button className = "Heading_style">
-        About Us
+        Enterprise
     </button>
     <button className = "Heading_style">
-        Enterprise
+        Shop
     </button>
      </>   
     )
