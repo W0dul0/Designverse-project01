@@ -5,16 +5,13 @@
   text-align: center;
 }
 
-.Headings {
-  left:-500px;
-}
-
 .Heading_style {
+  left:-100px;
   margin:30px;
 }
 
 #TitleIcon {
-  left:-200px;
+  left:-150px;
   font-size:50px;
   position:absolute;
   
