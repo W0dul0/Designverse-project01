@@ -13,6 +13,10 @@
   left:250px;
 }
 
+.Heading_style {
+  margin:15px;
+}
+
 #HeadingLinks {
   position:absolute;
   left:300px;
@@ -25,3 +29,4 @@
   position:absolute;
   
 }
+
