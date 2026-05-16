@@ -2,10 +2,18 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: left;
+  text-align: center;
+}
+
+.Headings {
+
+}
+
+.Heading_style {
+  background-color: red;
 }
 
 #test {
   color: red;
-  
+  font: Sans-Serif;
 }
