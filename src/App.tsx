@@ -1,4 +1,4 @@
-import { AboutMe } from './AboutMe.tsx'
+import { AboutUs } from './AboutMe.tsx'
 import { Headings, TitleIcon } from './Headings.tsx'
 import './App.css'
 
@@ -14,8 +14,8 @@ function App() {
     </div>
     </div>
 
-    <div id="AboutMe-Section">
-      <AboutMe/>
+    <div id="AboutUs-Section">
+      <AboutUs/>
     </div>
     </>
   )
