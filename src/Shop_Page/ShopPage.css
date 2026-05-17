@@ -11,18 +11,17 @@
   gap: 40px;
 }
 
-#ShopLeft {
+#Shop-Left {
   flex: 1;
 }
 
-#ShopRight {
+#Shop-Right {
   width: 360px;
   background: white;
   border-radius: 14px;
   padding: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   box-sizing: border-box;
-
   position: sticky;
   top: 140px; 
 }

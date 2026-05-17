@@ -8,11 +8,11 @@ export default function Shop(){
         <>
         <Header/>
 <div id="ShopLayout">
-  <div id="ShopLeft">
+  <div id="Shop-Left">
     <LeafletMapWithLocations/>
   </div>
 
-  <div id="ShopRight">
+  <div id="Shop-Right">
     <MiniStore />
   </div>
 </div>
