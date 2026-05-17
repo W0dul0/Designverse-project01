@@ -24,6 +24,7 @@ export default function Header() {
   return (
     <div id="WebHeadings" className={scrolled ? "scrolled" : ""}>
       <div id="TitleIcon">Save Bread</div>
+      <img src="savebread.svg-nobg.svg" id="BrandIcon"/>
 
       {/* Full links when not scrolled OR menu is open */}
       {(!scrolled || menuOpen) && (
