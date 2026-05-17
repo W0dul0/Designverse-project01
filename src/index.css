@@ -1,7 +1,7 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Libertinus Keyboard", system-ui;
   font-weight: 400;
+  font-style: normal;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -37,33 +37,24 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
+  background: none;          /* no background by default */
   border: 1px solid transparent;
+  border-radius: 8px;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  color: inherit;            /* inherits text color from parent */
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: color 0.25s, border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  color: white;              /* text turns white */
+  border-color: #646cff;     /* your existing hover border */
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
