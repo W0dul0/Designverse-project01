@@ -6,7 +6,15 @@ export default function Shop(){
     return(
         <>
         <Header/>
-        <LeafletMapWithLocations/>
+    <div id="ShopPage-Container">
+    <div id="ShopPage-Left">
+    <LeafletMapWithLocations/>
+    </div>
+
+    <div id="ShopPage-Right">
+    <MiniStore />
+  </div>
+</div>
 
         <ContactUs/>
         </>
