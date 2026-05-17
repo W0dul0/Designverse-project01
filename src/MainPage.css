@@ -38,15 +38,72 @@ position: fixed;
   flex-shrink: 0;
 }
 
+/* ABOUT US SECTION */
 
-#AboutUs-Section{
-  text-align:justify;
+#AboutUs-Section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  text-align: center;
+  font-family: inherit;
 }
 
-#AboutUs-Heading{
-  font-size:50px;
+/* Heading */
+#AboutUs-Heading {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-#AboutUs-Paragraph{
-  font-size:30px;
+/* Paragraph */
+#AboutUs-Paragraph {
+  font-size: 28px;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: justify;
+}
+
+#AboutUs-Cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  background: #f5f5f5;
+  border-radius: 20px;
+  padding: 30px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-card h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-card p {
+  font-size: 22px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.about-btn:hover {
+  background-color: #3e8e41;
 }
