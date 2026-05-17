@@ -7,9 +7,29 @@ export function CompanyForm(){
         through out shop, fill out the shop application 
         form below and we will evaluate your form
         </p>
-        <div id="CompanyForm-Survey">
-            <button id="Submit-Button"></button>
-        </div>
+    <div id="CompanyFormSection">
+  <h2>Company Inquiry Form</h2>
+
+  <form id="CompanyForm">
+    <label>Company Name</label>
+    <input type="text" placeholder="Enter your company name" required />
+
+    <label>Contact Person</label>
+    <input type="text" placeholder="Who should we speak with?" required />
+
+    <label>Email</label>
+    <input type="email" placeholder="name@company.com" required />
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="(555) 123‑4567" />
+
+    <label>Message</label>
+    <textarea placeholder="Tell us how we can work together…" required />
+
+    <button type="submit">Submit Inquiry</button>
+  </form>
+</div>
+
         </>
     )
 }

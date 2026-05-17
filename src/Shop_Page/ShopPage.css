@@ -1,27 +1,31 @@
 #ShopLayout {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-
-  width: 100%;
-  max-width: 1400px;
-  margin: 140px auto 0 auto; /* pushes below header */
-  padding: 0 40px;
-  box-sizing: border-box;
-  gap: 40px;
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 796px;
+    /* max-width: 1400px; */
+    margin: 140px auto 0;
+    padding: 0 40px;
+    box-sizing: border-box;
+    gap: 40px;
+    height: 777px;
 }
 
 #Shop-Left {
-  flex: 1;
+    flex: 1;
+    width: 1350px;
 }
 
 #Shop-Right {
-  width: 360px;
-  background: white;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  box-sizing: border-box;
-  position: sticky;
-  top: 140px; 
+    width: 350px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 20px;
+    box-shadow: 0 8px 20px #0000001a;
+    box-sizing: border-box;
+    position: relative;
+    left: 200%;
+    bottom: 735px;
+    z-index: 999;
+    height: 350px;
 }
