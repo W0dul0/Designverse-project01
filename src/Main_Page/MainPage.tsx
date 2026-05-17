@@ -1,6 +1,7 @@
 import { AboutUs } from "./MainPage_Components/AboutUs";
 import Header from "./MainPage_Components/Headings.tsx";
 import { Announcement } from "./MainPage_Components/Announcement";
+import { ContactUs } from "./MainPage_components/ContactUs";
 import "./MainPage.css";
 
 export default function Main() {
@@ -15,6 +16,8 @@ export default function Main() {
       <div id="AboutUs-Section">
         <AboutUs />
       </div>
+
+      <ContactUs/>
     </>
   );
 }

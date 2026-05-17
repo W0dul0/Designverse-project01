@@ -1,0 +1,34 @@
+.map-locations-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+}
+
+.locations-list {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 1rem;
+  background: #f7f7f7;
+  border-top: 1px solid #ddd;
+}
+
+.location-item {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.location-item:hover {
+  background: #eaeaea;
+}
+
+.location-item.active {
+  background: #d6e4ff;
+  border-left: 4px solid #4a6cff;
+}
