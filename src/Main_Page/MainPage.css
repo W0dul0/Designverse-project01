@@ -1,10 +1,13 @@
 #AboutUs-Section {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 40px;
-  text-align: center;
-  font-family: inherit;
+width: 100%;
+max-width: 1500px;
+margin-left: 6%;
+padding: 80px 40px;
+text-align: center;
+font-family: inherit;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 /* Heading */
