@@ -1,4 +1,4 @@
-default export function EnterprisePage(){
+export default function EnterprisePage(){
     return(
         <>
         <h1>Placeholder</h1>
