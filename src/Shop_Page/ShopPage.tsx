@@ -1,7 +1,9 @@
-export default function ShopPage(){
+import Header from "./ShopPage_Components/Headings"
+
+export default function Shop(){
     return(
         <>
-        <h1>Placeholder</h1>
+        <Header/>
         </>
     )
 }

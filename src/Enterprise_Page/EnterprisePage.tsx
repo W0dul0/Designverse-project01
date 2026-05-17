@@ -1,7 +1,9 @@
-export default function EnterprisePage(){
+import Header from "./EnterprisePage_Components/Headings"
+
+export default function Enterprise(){
     return(
         <>
-        <h1>Placeholder</h1>
+        <Header/>
         </>
     )
 }

@@ -3,7 +3,7 @@ import Header from "./MainPage_Components/Headings.tsx";
 import { Announcement } from "./MainPage_Components/Announcement";
 import "./MainPage.css";
 
-export default function MainPage() {
+export default function Main() {
   return (
     <>
     <Header/>
