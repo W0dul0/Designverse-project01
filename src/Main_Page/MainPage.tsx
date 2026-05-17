@@ -1,13 +1,12 @@
 import { AboutUs } from "./MainPage_Components/AboutUs";
-import { Headings } from "./MainPage_Components/Headings";
+import Header, { Headings } from "./MainPage_Components/Headings.tsx";
 import { Announcement } from "./MainPage_Components/Announcement";
 import "./MainPage.css";
 
 export default function MainPage() {
   return (
     <>
-    <TitleIcon/>
-    <Headings/>
+    <Header/>
 
       <div id="Announcement-Section">
         <Announcement />
