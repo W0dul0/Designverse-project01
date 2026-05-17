@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import { MainPage } from "./Main_Page/MainPage.tsx";
-import { About } from "./Contact_Us_Page/AboutPage.tsx";
-import { Shop } from "./Shop_Page/ShopPage.tsx";
-import { Enterprise }from "./Enterprise_Page/EnterprisePage.tsx";
+import MainPage from "./Main_Page/MainPage.tsx";
+import About from "./Contact_Us_Page/AboutPage.tsx";
+import Shop from "./Shop_Page/ShopPage.tsx";
+import Enterprise from "./Enterprise_Page/EnterprisePage.tsx";
 
 export default function App() {
   return (
@@ -14,7 +14,3 @@ export default function App() {
     </Routes>
   );
 }
-
-
-
-export default App
