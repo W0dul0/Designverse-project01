@@ -39,6 +39,7 @@ button {
     border-radius: 0.75em;
     transform-style: preserve-3d;
     transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+    top:-25px;
     &::before {
       position: absolute;
       content: '';
