@@ -18,7 +18,6 @@ export function MainPage(){
 
     <div id="AboutUs-Section">
       <AboutUs/>
-      <AboutUs2/>
     </div>
     </>
     )
