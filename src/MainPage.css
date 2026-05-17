@@ -104,3 +104,34 @@ position: fixed;
 .about-btn:hover {
   background-color: #3e8e41;
 }
+
+#Hamburger, #CloseMenu {
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 40px;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+
+.fade-in {
+  animation: fadeIn 0.35s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#WebHeadings.scrolled {
+  height: 70px;
+  padding: 0 1.5rem;
+}
+
+#WebHeadings.scrolled #HeadingLinks {
+  display: none;
+}
+
+#WebHeadings.scrolled #HeadingLinks.fade-in {
+  display: flex;
+}

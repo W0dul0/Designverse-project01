@@ -19,26 +19,30 @@ export function MainPage() {
   return (
     <>
       <div id="WebHeadings" className={scrolled ? "scrolled" : ""}>
-        <TitleIcon />
+  <TitleIcon />
 
-        {!scrolled && (
-          <div id="HeadingLinks">
-            <Headings />
-          </div>
-        )}
+  {/* Show full links if NOT scrolled OR if menu is open */}
+  {(!scrolled || menuOpen) && (
+    <div id="HeadingLinks" className={menuOpen ? "fade-in" : ""}>
+      <Headings />
+    </div>
+  )}
 
-        {scrolled && (
-          <div id="Hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-            ☰
-          </div>
-        )}
-      </div>
+  {/* Show hamburger only when scrolled AND menu is closed */}
+  {scrolled && !menuOpen && (
+    <div id="Hamburger" onClick={() => setMenuOpen(true)}>
+      <img src="icons8-menus.svg" />
+    </div>
+  )}
 
-      {menuOpen && (
-        <div id="DropdownMenu">
-          <Headings />
-        </div>
-      )}
+  {/* Close button when menu is open */}
+  {menuOpen && (
+    <div id="CloseMenu" onClick={() => setMenuOpen(false)}>
+      <img src="icons8-close.svg"/>
+    </div>
+  )}
+</div>
+
 
       <div id="Announcement-Section"> 
       <Announcement/>
