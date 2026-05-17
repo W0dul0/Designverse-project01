@@ -1,10 +1,11 @@
-import { AboutUs } from './MainPage_Components/AboutUs.tsx'
-import { Headings, TitleIcon } from './MainPage_Components/Headings.tsx'
-import { Announcement } from './MainPage_Components/Announcement.tsx'
-import './MainPage.css'
+import { AboutUs } from "./MainPage_Components/AboutUs";
+import { Headings } from "./MainPage_Components/Headings";
+import { TitleIcon } from "./MainPage_Components/TitleIcon";
+import { Announcement } from "./MainPage_Components/Announcement";
+import "./MainPage.css";
 import { useState, useEffect } from "react";
 
-export function MainPage() {
+export default function MainPage() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,7 +14,6 @@ export function MainPage() {
       const isScrolled = window.scrollY > 150;
       setScrolled(isScrolled);
 
-      // Auto-close menu when scrolling back up
       if (!isScrolled) {
         setMenuOpen(false);
       }
@@ -28,21 +28,18 @@ export function MainPage() {
       <div id="WebHeadings" className={scrolled ? "scrolled" : ""}>
         <TitleIcon />
 
-        {/* Show full links if NOT scrolled OR if menu is open */}
         {(!scrolled || menuOpen) && (
           <div id="HeadingLinks" className={menuOpen ? "fade-in" : ""}>
             <Headings />
           </div>
         )}
 
-        {/* Show hamburger only when scrolled AND menu is closed */}
         {scrolled && !menuOpen && (
           <div id="Hamburger" onClick={() => setMenuOpen(true)}>
             <img src="/icons8-menu.svg" />
           </div>
         )}
 
-        {/* Close button when menu is open */}
         {menuOpen && (
           <div id="CloseMenu" onClick={() => setMenuOpen(false)}>
             <img src="/icons8-close.svg" />

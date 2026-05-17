@@ -1,5 +1,5 @@
 #WebHeadings {
-position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
@@ -11,8 +11,14 @@ position: fixed;
   align-items: center;
   padding: 0 2rem;
   box-sizing: border-box;
+  background-color: #deb887;
+  transition: height 0.3s ease, padding 0.3s ease;
 }
 
+#WebHeadings.scrolled {
+  height: 70px;
+  padding: 0 1.5rem;
+}
 
 #HeadingLinks {
   flex: 1;
@@ -22,94 +28,27 @@ position: fixed;
   margin-left: 2rem;
 }
 
-#HeadingLinks button {
+#HeadingLinks a {
   flex: 1;
   text-align: center;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
   padding: 0.8em 1.2em;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
 
-
-#TitleIcon {
-  font-size: 60px;
-  flex-shrink: 0;
-}
-
-/* ABOUT US SECTION */
-
-#AboutUs-Section {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 80px 40px;
-  text-align: center;
-  font-family: inherit;
-}
-
-/* Heading */
-#AboutUs-Heading {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 30px;
-}
-
-/* Paragraph */
-#AboutUs-Paragraph {
-  font-size: 28px;
-  line-height: 1.5;
-  max-width: 900px;
-  margin: 0 auto 60px auto;
-  text-align: justify;
-}
-
-#AboutUs-Cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
-  flex-wrap: wrap;
-}
-
-.about-card {
-  background: #f5f5f5;
-  border-radius: 20px;
-  padding: 30px;
-  width: 420px;
-  text-align: center;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-}
-
-.about-card h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.about-card p {
-  font-size: 22px;
-  line-height: 1.4;
-  margin-bottom: 30px;
-}
-
-.about-btn {
-  background-color: #4CAF50;
+#HeadingLinks a:hover {
   color: white;
-  border: none;
-  padding: 14px 28px;
-  font-size: 22px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: background 0.25s ease;
+  border-color: #646cff;
 }
 
-.about-btn:hover {
-  background-color: #3e8e41;
-}
-
-#Hamburger, #CloseMenu {
+#Hamburger,
+#CloseMenu {
   margin-left: auto;
   cursor: pointer;
-  font-size: 40px;
-  user-select: none;
   display: flex;
   align-items: center;
 }
@@ -121,17 +60,4 @@ position: fixed;
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
-}
-
-#WebHeadings.scrolled {
-  height: 70px;
-  padding: 0 1.5rem;
-}
-
-#WebHeadings.scrolled #HeadingLinks {
-  display: none;
-}
-
-#WebHeadings.scrolled #HeadingLinks.fade-in {
-  display: flex;
 }
