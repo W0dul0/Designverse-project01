@@ -12,7 +12,7 @@ export function Headings(){
         Enterprise
     </button>
     <button className = "Heading_style">
-        Shop
+        Login
     </button>
      </>   
     )
