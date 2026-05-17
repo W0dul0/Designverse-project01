@@ -1,8 +1,7 @@
-export function Announcement(){
-    
-    return(
-        <>
-        <img src="landscape-placeholder.svg" id="Main_Img"></img>
-        </>
-    )
+export function Announcement() {
+  return (
+    <>
+      <img src="/8Mvj.gif.gif" id="Main_Img" />
+    </>
+  )
 }
