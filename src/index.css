@@ -51,8 +51,10 @@ button:hover {
   color: white;
 }
 
-html, body, #root {
+html, body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 #root {
