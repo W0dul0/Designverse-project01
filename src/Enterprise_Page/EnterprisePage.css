@@ -7,11 +7,16 @@
   max-width: 700px;
 }
 
-#CompanyFormSection h2 {
-  margin: 0 0 20px 0;
-  font-size: 1.8rem;
-  color: #333;
+#CompanyFormSection {
+  margin: 40px auto 0 auto;   /* centers horizontally */
+  max-width: 700px;           /* keeps it clean and readable */
+  background: white;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  box-sizing: border-box;
 }
+
 
 #CompanyForm {
   display: flex;
