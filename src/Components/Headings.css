@@ -48,7 +48,10 @@
 
 #HeadingLinks a:hover {
   color: white;
-  border-color: #646cff;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  transition: all 0.25s ease;
 }
 
 #Hamburger,
