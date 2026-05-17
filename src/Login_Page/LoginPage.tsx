@@ -32,6 +32,8 @@ export default function Login(){
         </div>
       </div>
 
+      <img src="toast.svg" id="login-img"/>
+
       <ContactUs />
     </>
   );
