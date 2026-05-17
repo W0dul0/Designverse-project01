@@ -1,6 +1,6 @@
 import "./ContactUs.css";
 
-export default function ContactUs() {
+export function ContactUs() {
   return (
     <footer id="ContactUs-Footer">
       <h2 className="footer-heading">Contact Us</h2>

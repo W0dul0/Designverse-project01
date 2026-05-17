@@ -1,7 +1,7 @@
 import { AboutUs } from "./MainPage_Components/AboutUs";
 import { Announcement } from "./MainPage_Components/Announcement";
-import Header from "../Components/ContactUs";
-import ContactUs from "../Components/ContactUs";
+import Header from "../Components/Headings";
+import { ContactUs } from "../Components/ContactUs";
 import "./MainPage.css";
 
 export default function Main() {
