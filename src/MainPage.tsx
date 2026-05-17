@@ -1,4 +1,4 @@
-import { AboutUs, AboutUs2} from './AboutUs.tsx'
+import { AboutUs } from './AboutUs.tsx'
 import { Headings, TitleIcon } from './Headings.tsx'
 import { Announcement } from './Announcement.tsx'
 import './MainPage.css'
