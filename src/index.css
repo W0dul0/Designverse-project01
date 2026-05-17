@@ -38,22 +38,19 @@ h1 {
 }
 
 button {
-  background: none;          /* no background by default */
+  background: none;
   border: 1px solid transparent;
   border-radius: 8px;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  color: inherit;            /* inherits text color from parent */
+  font-weight: 600;
+  color: inherit;
   cursor: pointer;
-  transition: color 0.25s, border-color 0.25s;
+  transition: color 0.25s ease, border-color 0.25s ease;
 }
 
 button:hover {
-  color: white;              /* text turns white */
-  border-color: #646cff;     /* your existing hover border */
+  color: white;
 }
+
 
 button:focus,
 button:focus-visible {
