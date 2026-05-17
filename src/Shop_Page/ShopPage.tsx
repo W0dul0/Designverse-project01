@@ -7,12 +7,12 @@ export default function Shop(){
     return(
         <>
         <Header/>
-    <div id="ShopPage-Container">
-    <div id="ShopPage-Left">
+<div id="ShopLayout">
+  <div id="ShopLeft">
     <LeafletMapWithLocations/>
-    </div>
+  </div>
 
-    <div id="ShopPage-Right">
+  <div id="ShopRight">
     <MiniStore />
   </div>
 </div>

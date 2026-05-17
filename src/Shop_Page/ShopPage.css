@@ -1,7 +1,8 @@
-#ShopPage-Container {
+#ShopLayout {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
   width: 100%;
   max-width: 1400px;
   margin: 140px auto 0 auto; /* pushes below header */
@@ -10,17 +11,18 @@
   gap: 40px;
 }
 
-#ShopPage-Left {
+#ShopLeft {
   flex: 1;
 }
 
-#ShopPage-Right {
-  width: 380px; /* fixed sidebar width */
+#ShopRight {
+  width: 360px;
   background: white;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   box-sizing: border-box;
+
   position: sticky;
   top: 140px; /* stays visible while scrolling */
 }
