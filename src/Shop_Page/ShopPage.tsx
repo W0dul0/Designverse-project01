@@ -1,5 +1,5 @@
-import Header from "./ShopPage_Components/Headings"
-import { ContactUs } from "./ShopPage_Components/ContactUs";
+import Header from "../components/ContactUs";
+import ContactUs from "../components/ContactUs";
 
 export default function Shop(){
     return(
