@@ -98,5 +98,8 @@
 }
 
 #login-img {
-  position:relative;
+    position: absolute;
+    left: 50%;
+    width: 33%;
+    top: 119px;
 }

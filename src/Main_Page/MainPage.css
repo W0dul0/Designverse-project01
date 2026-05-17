@@ -1,37 +1,40 @@
 #AboutUs-Section {
-width: 100%;
-max-width: 1500px;
-margin-left: 6%;
-padding: 80px 40px;
-text-align: center;
-font-family: inherit;
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin-left: 6%;
+    padding: 80px 40px;
+    text-align: center;
+    font-family: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Heading */
 #AboutUs-Heading {
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 500px;
+    margin-right: -100px;
+    width: 120px;
 }
 
 /* Paragraph */
 #AboutUs-Paragraph {
-  font-size: 28px;
-  line-height: 1.5;
-  max-width: 900px;
-  margin: 0 auto 60px auto;
-  text-align: justify;
+    font-size: 28px;
+    line-height: 1.5;
+    max-width: 900px;
+    margin: 0 auto 60px;
+    text-align: justify;
+    margin-right: 50px;
 }
 
 #AboutUs-Cards {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .about-card {
