@@ -1,0 +1,94 @@
+#LoginPage-Wrapper {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px; /* space for your fixed header */
+  background-color: #faf7f2;
+}
+
+#LoginCard {
+  width: 380px;
+  padding: 2.5rem;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.login-subtitle {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+}
+
+#LoginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#LoginForm label {
+  font-weight: 600;
+  color: #444;
+}
+
+#LoginForm input {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+#LoginForm input:focus {
+  border-color: #b8860b; /* warm gold accent */
+  outline: none;
+}
+
+.login-btn {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  background-color: #deb887; /* matches your header */
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #c79a6a;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin: 0.5rem 0;
+}
+
+.register-btn {
+  padding: 0.8rem;
+  background-color: #f0e6d8;
+  border: 1px solid #d4c3a8;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #e4d4bd;
+}
