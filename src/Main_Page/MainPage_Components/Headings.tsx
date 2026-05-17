@@ -51,10 +51,3 @@ export default function Header() {
     </div>
   );
 }
-
-
-export function TitleIcon(){
-    return(
-        <h1 id= "TitleIcon"> Save Bread</h1>
-    )
-}
