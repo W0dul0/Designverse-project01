@@ -7,7 +7,6 @@
   padding-top: 120px; /* space for your fixed header */
   padding-bottom: 40px; /* prevents footer from pushing content upward */
 
-  background-color: #faf7f2;
   box-sizing: border-box;
   width: 100%;
 }
