@@ -72,12 +72,45 @@
   background-color: #3e8e41;
 }
 
-#Main_Img{
-    width: 100%;
-    box-shadow: 0 120px 120px rgb(255, 211, 172);
+#AnnouncementWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  gap: 40px;
 }
 
-#Announcement-Section {
-  position: relative;
-  margin-top: 120px;
+#AnnouncementText {
+  max-width: 450px;
+}
+
+#AnnouncementText h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+#AnnouncementText p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#ScrollButton {
+  padding: 12px 24px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+#ScrollButton:hover {
+  background-color: #3e8e41;
+}
+
+#Main_Img {
+  width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
 }
