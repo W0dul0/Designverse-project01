@@ -1,7 +1,7 @@
 import LeafletMapWithLocations from "./EnterprisePage_Components/LeafletMapWithLocations";
 import {CompanyForm} from "./EnterprisePage_Components/CompanyForm"
-import Header from "../components/ContactUs";
-import ContactUs from "../components/ContactUs";
+import Header from "../Components/ContactUs";
+import ContactUs from "../Components/ContactUs";
 
 
 export default function Enterprise(){
