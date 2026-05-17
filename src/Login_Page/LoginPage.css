@@ -1,11 +1,14 @@
 #LoginPage-Wrapper {
-  width: 100%;
-  min-height: 80vh;
+  flex: 1; /* fills remaining space between header and footer */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 120px; /* space for your fixed header */
+
+  padding-top: 120px; /* space for fixed header */
+  padding-bottom: 40px; /* space so footer doesn't overlap */
+
   background-color: #faf7f2;
+  box-sizing: border-box;
 }
 
 #LoginCard {
