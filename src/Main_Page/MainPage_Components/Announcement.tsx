@@ -1,7 +1,7 @@
 export function Announcement() {
   return (
     <>
-      <img src="/8Mvj.gif.gif" id="Main_Img" />
+      <img src="/8Mvj.gif" id="Main_Img" />
     </>
   )
 }
