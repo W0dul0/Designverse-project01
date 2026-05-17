@@ -31,14 +31,14 @@ export function MainPage() {
   {/* Show hamburger only when scrolled AND menu is closed */}
   {scrolled && !menuOpen && (
     <div id="Hamburger" onClick={() => setMenuOpen(true)}>
-      <img src="./assets/icons8-menus.svg" />
+      <img src="/icons8-menus.svg" />
     </div>
   )}
 
   {/* Close button when menu is open */}
   {menuOpen && (
     <div id="CloseMenu" onClick={() => setMenuOpen(false)}>
-      <img src="./assets/icons8-close.svg"/>
+      <img src="/icons8-close.svg"/>
     </div>
   )}
 </div>
