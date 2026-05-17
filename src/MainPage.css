@@ -1,0 +1,38 @@
+#WebHeadings{
+position: absolute;
+top: 0px;
+background-color: #deb887;
+border-width: 5px;
+height: 100px;
+border-style: solid;
+border-radius: 25px;
+border-color: #deb887;
+width: 5000px;
+left: -10px;
+}
+
+#HeadingLinks {
+  width: 800px;
+  position: relative;
+  top: -100px;
+  left: 350px;
+}
+
+#TitleIcon {
+  font-size: 50px;
+  position: relative;
+  width: 300px;
+  top: -45px;
+}
+
+#AboutUs-Section{
+  text-align:justify;
+}
+
+#AboutUs-Heading{
+  font-size:50px;
+}
+
+#AboutUs-Paragraph{
+  font-size:30px;
+}
