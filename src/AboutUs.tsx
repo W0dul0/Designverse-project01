@@ -19,6 +19,7 @@ export function AboutUs(){
 export function AboutUs2(){
     
     return(
+        <>
         <p className="AboutUs2-Paragraphs">To view the shop, press the shop button to find available bread
         </p>
         <button className="AboutUs2-Buttons"> Shop </button>
@@ -31,5 +32,6 @@ export function AboutUs2(){
         make an enterprise account and wait for verification to be available in the shop 
         </p>
         <button className="AboutUs2-Buttons"> Enterprise Sign up</button>
+        </>
     )
 }
