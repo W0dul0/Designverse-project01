@@ -1,6 +1,6 @@
-import { AboutUs } from './AboutUs.tsx'
-import { Headings, TitleIcon } from './Headings.tsx'
-import { Announcement } from './Announcement.tsx'
+import { AboutUs } from './MainPage_Components/AboutUs.tsx'
+import { Headings, TitleIcon } from './MainPage_Components/Headings.tsx'
+import { Announcement } from './MainPage_Components/Announcement.tsx'
 import './MainPage.css'
 import { useState, useEffect } from "react";
 

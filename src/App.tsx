@@ -1,4 +1,4 @@
-import { MainPage } from './MainPage.tsx'
+import { MainPage } from './Main_Page/MainPage.tsx'
 import './App.css'
 
 function App() {
