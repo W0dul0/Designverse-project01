@@ -72,28 +72,28 @@ button {
 /*-----------------------------------------------------------------------------------------*/
 
 #WebHeadings{
-  position:absolute;
-  top:20px;
-  left:250px;
-  background-color:burlywood;
-  border-width:5px;
-  height:80px;
-  border-style:solid;
-  border-radius:25px;
-  border-color:burlywood;
+position: absolute;
+top: 0px;
+background-color: #deb887;
+border-width: 5px;
+height: 100px;
+border-style: solid;
+border-radius: 25px;
+border-color: #deb887;
+width: 5000px;
+left: -10px;
 }
 
 #HeadingLinks {
-  position: absolute;
   width: 800px;
-  top: -20px;
-  left: 100px;
+  position: relative;
+  top: -100px;
+  left: 350px;
 }
 
 #TitleIcon {
-  left: -245px;
   font-size: 50px;
-  position: absolute;
+  position: relative;
   width: 300px;
   top: -45px;
 }
